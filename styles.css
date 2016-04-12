@@ -6,6 +6,7 @@ body {
   color: #222222;
 	font-size: 1em;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
 
 }
 
@@ -91,4 +92,13 @@ a:hover {
   padding: 0;
   /* Appearance Declarations */
   list-style: none;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
 }
